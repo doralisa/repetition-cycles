@@ -11,7 +11,7 @@ public class ExerciseSix {
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                System.out.printf("Ingrese el valor para la matriz en la posición %d, %d ", i, j ": ");
+                System.out.printf("Ingrese el valor para la matriz en la posición %d, %d ", i, j, ": ");
                 matriz [i][j] = keyboard.nextInt();
             }
         }
